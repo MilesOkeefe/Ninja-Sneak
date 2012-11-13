@@ -1,0 +1,15 @@
+name: Ninja Sneak
+main: me.milesokeefe.ninjasneak.NinjaSneak
+version: 1.3
+author: milesokeefe
+commands:
+   ninja:
+      description: Invisible while sneaking.
+      usage: /<command>
+      permission: ninja.basic
+      permission-message: You don't have <permission>
+   normal:
+      description: Visible when sneaking. 
+      usage: /<command>
+      permission: ninja.basic
+      permission-message: You don't have <permission>
